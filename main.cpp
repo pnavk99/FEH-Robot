@@ -70,15 +70,7 @@ int main(void)
     while(!LCD.Touch(&x,&y)); //Wait for screen to be pressed
     while(LCD.Touch(&x,&y)); //Wait for screen to be unpressed
 
-    move_forward(motor_percent, 12);
-    rotate(90,CLOCKWISE,motor_percent);
-    move_forward(motor_percent, 8);
-    rotate(80,ANTICLOCKWISE,motor_percent);
-    move_forward(motor_percent, 8.5);
-    rotate(90,ANTICLOCKWISE,motor_percent);
-    move_forward(-motor_percent,1.25);
-    rotate(100,ANTICLOCKWISE,motor_percent);
-    move_forward(motor_percent,8);
+    //Insert movement code (function calls)
 
 
 //    Sleep(2.0); //Wait for counts to stabilize
