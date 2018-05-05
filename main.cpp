@@ -4,6 +4,7 @@
 #include <FEHMotor.h>
 #include <FEHRPS.h>
 
+//macros
 #define CLOCKWISE 1
 #define ANTICLOCKWISE 0
 #define PI 3.141593
@@ -60,7 +61,7 @@ int main(void)
     int motor_percent = 30; //Input power level here
 
     float x, y; //for touch screen
-        
+
     //Initialize the screen
     LCD.Clear(BLACK);
     LCD.SetFontColor(WHITE);
